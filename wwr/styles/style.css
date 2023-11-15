@@ -22,6 +22,11 @@ nav a:hover {
     color: white;
 }
 
+#rivers-msg h1, #rivers-msg h4 {
+    text-align: center;
+    color: black;
+}
+
 .button-box {
     text-align: center;
 }
@@ -77,6 +82,10 @@ nav {
 .home-grid {
     display: grid;
     grid-template-columns: 2fr;
+}
+
+.rivers-grid {
+    padding: 0 10px;
 }
 
 .msg {
@@ -184,6 +193,12 @@ footer .social  img {
     margin-top: 100px;
 }
 
+#rivers-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
 #hero-image {
     width: 100%;
 }
@@ -192,8 +207,8 @@ footer .social  img {
     margin: 200px 0;
 }
 
-.rivers_card-page2 .camping-card-page2 .rapids-card-page2 {
-    margin: 200px 0;
+.rivers-div {
+    display: flex;        
 }
 
 .card-img {
@@ -207,14 +222,9 @@ footer .social  img {
     transform: scale(1.1);
 }
 
-.card-img-page2 {    
-    transition: transform 0.5s;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-
-.card-img-page2:hover {
-    opacity: .6;
-    transform: scale(1.1);
+.rivers-img {
+    max-width: 40%;
+    margin: 0 20px;   
 }
 
 .mountains {
@@ -242,6 +252,11 @@ footer .social  img {
 .rapids-card {
     grid-column: 8/10;
     grid-row: 2/3;
+}
+
+h4 {
+    text-align: right;
+    margin-right: 175px;
 }
 
 @media screen and (max-width: 900px) {
