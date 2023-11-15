@@ -76,7 +76,7 @@ nav {
 
 .home-grid {
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: 2fr;
 }
 
 .msg {
@@ -192,6 +192,10 @@ footer .social  img {
     margin: 200px 0;
 }
 
+.rivers_card-page2 .camping-card-page2 .rapids-card-page2 {
+    margin: 200px 0;
+}
+
 .card-img {
     border: 10px solid black;
     transition: transform 0.5s;
@@ -199,6 +203,16 @@ footer .social  img {
 }
 
 .card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.card-img-page2 {    
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.card-img-page2:hover {
     opacity: .6;
     transform: scale(1.1);
 }
