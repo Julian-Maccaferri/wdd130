@@ -6,8 +6,7 @@
 }
 
 header {
-    display: flex;
-    justify-content: space-around;    
+    display: flex;      
     background-color: #0d67b6;
     color: black;
     display: grid;
@@ -16,7 +15,7 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;    
 }
 
 nav a {
@@ -43,16 +42,36 @@ border-radius: 50%;
 }
 
 body {
-    background-color: #fcfbfb;
-    color: #2E7ABC;
+    background-color: whitesmoke;
+    color: #0d67d5;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
 
+.home-div{
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
 .home-title {
     text-align: center;
+}
+
+.home-title p {
+    padding: 0 20px;
+}
+
+.home-div{
+    margin-top: 50px;
+    padding: 0 20px;
+    justify-content: center;
+}
+
+.portfolio-title p {
+    padding: 0 20px;
+    margin-top: 50px;
 }
 
 footer {
@@ -88,9 +107,15 @@ footer .social  img {
 
 .info {
     display: flex;
+    justify-content: center;
 }
 
 .home-img {
     max-width: 40%;
+    margin: 0 20px;   
+}
+
+.portfolio-img {
+    max-width: 30%;
     margin: 0 20px;   
 }
